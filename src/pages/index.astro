@@ -1,16 +1,17 @@
 ---
-
+import Guide from '../content/ai_character_video_guide.md'
+import Base from '../layouts/Base.astro'
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Base title="AI Character Video Creation Guide">
+  <div slot="toc" class="toc" aria-label="Table of Contents">
+    <strong>Table of Contents</strong>
+    <ul>
+      <li><a href="#part-1--quickstart-overview">Part 1 – Quick‑Start Overview</a></li>
+      <li><a href="#part-2--stepbystep-learning-roadmap">Part 2 – Step‑By‑Step Learning Roadmap</a></li>
+      <li><a href="#part-3--minimal-macosfriendly-hardware">Part 3 – Minimal macOS‑Friendly Hardware</a></li>
+      <li><a href="#part-4--prompt-cheatsheet-character-consistency">Part 4 – Prompt Cheat‑Sheet</a></li>
+      <li><a href="#part-5--first-project-30second-pilot-video">Part 5 – First Project: 30‑Second Pilot Video</a></li>
+    </ul>
+  </div>
+  <Guide />
+</Base>
